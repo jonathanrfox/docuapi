@@ -18,7 +18,9 @@
     </a>
     <div class="toc-wrapper">
         {{ partial "hook_left_sidebar_start.html" . }}
+        {{ if .Site.Params.logo }}
         {{ partial "hook_left_sidebar_logo.html" . }}
+        {{ end }}
         {{ with .Site.Params.language_tabs }}
         <div class="lang-selector">
             {{ range . }}
