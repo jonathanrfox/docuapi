@@ -1,4 +1,4 @@
-module github.com/bep/docuapi
+module github.com/jonathanrfox/docuapi
 
 go 1.12
 
